@@ -1,4 +1,3 @@
-require 'pry'
 class Dog
 
   def name=(dogs_name)
@@ -9,7 +8,3 @@ class Dog
     @this_dogs_name
   end
 end
-lassie = Dog.new
-lassie.name = "Lassie"
-binding.pry
-puts lassie.name
